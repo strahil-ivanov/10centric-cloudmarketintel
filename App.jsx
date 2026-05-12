@@ -20,6 +20,7 @@ export default function TencentMarketDashboard() {
       {/* HEADER */}
       <header className="bg-slate-900 text-white p-6 sticky top-0 z-20 shadow-md">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+<img src="/App_Icon_3.png" alt="10centric Logo" className="w-10 h-10 rounded-lg shadow-sm object-contain" />
           <div>
             <h1 className="text-2xl md:text-3xl font-black tracking-tight flex items-center gap-3">
               <img src="/App_Icon_3.png" alt="10centric Logo" className="w-10 h-10 rounded-lg shadow-sm object-contain" />
