@@ -32,11 +32,11 @@ export default function TencentMarketDashboard() {
             <div>
               <h1 className="text-2xl md:text-3xl font-black tracking-tight flex items-center gap-2">
                
-                <span className="text-slate-400 font-light mx-1">|</span>
-                Tencent Cloud Intelligence
+                
+                Tencent Cloud Market Intelligence
               </h1>
               <p className="text-slate-400 text-xs md:text-sm mt-0.5 font-medium uppercase tracking-wider">
-                Sales Management Strategic Portal
+                Strategic positioning, competitor analysis, and market data for 10centric Sales Managers
               </p>
             </div>
           </div>
