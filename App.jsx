@@ -22,16 +22,16 @@ export default function TencentMarketDashboard() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div className="flex items-center gap-4">
             {/* CUSTOM LOGO INTEGRATION */}
-            <div className="bg-white p-1.5 rounded-xl shadow-inner">
-              <img 
-                src="/App_Icon_3.png" 
-                alt="10centric Logo" 
-                className="w-12 h-12 object-contain" 
-              />
-            </div>
+
+  <img 
+    src="/App_Icon_3.png" 
+    alt="10centric Logo" 
+    className="w-12 h-12 object-contain" 
+  />
+
             <div>
               <h1 className="text-2xl md:text-3xl font-black tracking-tight flex items-center gap-2">
-                <span className="text-blue-400 font-extrabold">10centric</span>
+               
                 <span className="text-slate-400 font-light mx-1">|</span>
                 Tencent Cloud Intelligence
               </h1>
