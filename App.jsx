@@ -20,14 +20,27 @@ export default function TencentMarketDashboard() {
       {/* HEADER */}
       <header className="bg-slate-900 text-white p-6 sticky top-0 z-20 shadow-md">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-black tracking-tight flex items-center gap-3">
-              <img src="/App_Icon_3.png" alt="10centric Logo" className="w-10 h-10 rounded-lg shadow-sm object-contain" />
-              <BarChart2 className="w-8 h-8 text-blue-400" />
-              Tencent Cloud Market Intelligence
-            </h1>
-            <p className="text-slate-400 text-sm mt-1">Strategic positioning, competitor analysis, and market data for 10centric Sales Managers</p>
+          <div className="flex items-center gap-4">
+            {/* CUSTOM LOGO INTEGRATION */}
+            <div className="bg-white p-1.5 rounded-xl shadow-inner">
+              <img 
+                src="/App_Icon_3.png" 
+                alt="10centric Logo" 
+                className="w-12 h-12 object-contain" 
+              />
+            </div>
+            <div>
+              <h1 className="text-2xl md:text-3xl font-black tracking-tight flex items-center gap-2">
+                <span className="text-blue-400 font-extrabold">10centric</span>
+                <span className="text-slate-400 font-light mx-1">|</span>
+                Tencent Cloud Intelligence
+              </h1>
+              <p className="text-slate-400 text-xs md:text-sm mt-0.5 font-medium uppercase tracking-wider">
+                Sales Management Strategic Portal
+              </p>
+            </div>
           </div>
+          
           <div className="bg-slate-800 rounded-lg p-1 flex shadow-inner overflow-x-auto w-full md:w-auto">
             {[
               { id: 'overview', label: 'Corporate Overview', icon: Building },
